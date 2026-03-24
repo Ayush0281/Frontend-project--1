@@ -351,6 +351,9 @@ header {
   margin-bottom: 40px;
   color: #222;
   font-weight: 700;
+  width: 100%;
+  text-align: center;
+  clear: both;
 }
 
 /* GRID */
@@ -419,13 +422,6 @@ header {
   border-radius: 5px;
 }
 
-.newsletter input {
-  padding: 10px;
-  margin: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
 .newsletter-box {
   background: linear-gradient(to right, #4da6ff, #3399ff);
   padding: 30px;
@@ -453,20 +449,27 @@ header {
   border: none;
   border-radius: 4px;
   outline: none;
+  flex: 1;
+  min-width: 180px;
 }
 
 .newsletter-form button {
   background: white;
   color: #4da6ff;
   border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
+  flex: 0 0 auto;
+  padding: 10px 18px;
+  white-space: nowrap;
 }
 
 .newsletter-form button:hover {
   background: #e6f2ff;
+  transform: scale(1.05);
 }
 
 .row.group {
@@ -704,9 +707,6 @@ header {
 
   .quality-heading {
     font-size: 26px;
-    width: 100%;
-    text-align: center;
-    clear: both;
   }
 
   .newsletter-box {
