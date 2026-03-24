@@ -704,6 +704,9 @@ header {
 
   .quality-heading {
     font-size: 26px;
+    width: 100%;
+    text-align: center;
+    clear: both;
   }
 
   .newsletter-box {
